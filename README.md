@@ -48,6 +48,17 @@ Follow these steps to engage with the DEX and Reward System:
 2. **Active Participation**: Ensure to perform both opening and closing actions within trading periods to qualify for rewards.
 3. **Claiming Rewards**: Post-period, check your eligibility and claim your earned rewards through the Reward System contract.
 
+## Post Deployment Info
+MockUSDC deployed to: [0x3008f2aF7b9123BC740CcBdC3db09707ABA11A35](https://sepolia.etherscan.io/address/0x3008f2aF7b9123BC740CcBdC3db09707ABA11A35)
+
+MockDerivativesDEX deployed to: [0x6948d1b74Be80320e116A8640052bDA16b8014a6](https://sepolia.etherscan.io/address/0x6948d1b74Be80320e116A8640052bDA16b8014a6)
+
+MockERC20 deployed to: [0xa96c66381CFb2DFDa50429a0e6B1Bf0b8bFC7A18](https://sepolia.etherscan.io/address/0xa96c66381CFb2DFDa50429a0e6B1Bf0b8bFC7A18)
+
+RewardSystem deployed to: [0x03605fCa263753043Bd7D1cBD45FaF1833287354](https://sepolia.etherscan.io/address/0x03605fCa263753043Bd7D1cBD45FaF1833287354)
+
+Minted 1000000000000000000000000 MockERC20 tokens to RewardSystem
+
 ## Contributing
 
 Contributions to expand or improve the repository are welcome! 
