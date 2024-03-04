@@ -44,10 +44,14 @@ async function main() {
   const rewardSystemAddr = await rewardSystem.getAddress();
   console.log("RewardSystem deployed to:", rewardSystemAddr);
 
+  // Set Rewardsystem Address to dex platform
+  await dex.setRewardingPluginAddress(rewardSystemAddr);
+
   // Mint ERC20 tokens to the RewardSystem
   const initialSupplyERC20 = ethers.parseUnits("1000000", 18);
   await erc20.mint(rewardSystemAddr, initialSupplyERC20);
   console.log(`Minted ${initialSupplyERC20.toString()} MockERC20 tokens to RewardSystem`);
+
 }
 
 main()
