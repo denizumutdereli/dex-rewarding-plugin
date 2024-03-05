@@ -2,7 +2,15 @@ import { ethers } from "hardhat";
 
 /**
  * @author denizumutdereli
- * @dev -post-deployment -> readme
+ * 
+ * @dev -post-deployment:
+ * 
+    Starting the deploy...
+    MockUSDC deployed to: 0x3008f2aF7b9123BC740CcBdC3db09707ABA11A35
+    MockDerivativesDEX deployed to: 0x6948d1b74Be80320e116A8640052bDA16b8014a6
+    MockERC20 deployed to: 0xa96c66381CFb2DFDa50429a0e6B1Bf0b8bFC7A18
+    RewardSystem deployed to: 0x03605fCa263753043Bd7D1cBD45FaF1833287354
+    Minted 1000000000000000000000000 MockERC20 tokens to RewardSystem
  */
 
 
